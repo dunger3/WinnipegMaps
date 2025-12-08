@@ -166,7 +166,7 @@ Alerts (community)
 
 Clone the project:
 
-git clone https://github.com/yourusername/WinnipegMapsApp.git
+git clone https://github.com/dunger3/WinnipegMaps.git
 
 
 Open in Android Studio.
