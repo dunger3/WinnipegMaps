@@ -48,7 +48,7 @@ object PlacesApi {
         category: PlaceCategory
     ): List<PlaceMarker> = withContext(Dispatchers.IO) {
         try {
-            val apiKey = "AIzaSyC6smpCrPXQz8XiAAJ6Ew-RY8Eu_8sDIqo"
+            val apiKey = "Your API Key"
             if (apiKey.isBlank()) {
                 Log.e(PLACES_TAG, "MAPS_API_KEY is missing")
                 return@withContext emptyList()
@@ -120,3 +120,4 @@ object PlacesApi {
         }
     }
 }
+
