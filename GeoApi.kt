@@ -23,7 +23,7 @@ object GeoApi {
 //     */
     suspend fun reverseGeocode(latLng: LatLng): String? = withContext(Dispatchers.IO) {
         try {
-            val apiKey = "AIzaSyC6smpCrPXQz8XiAAJ6Ew-RY8Eu_8sDIqo"
+            val apiKey = "Your API Key"
             if (apiKey.isBlank()) {
                 Log.e(TAG, "MAPS_API_KEY is missing")
                 return@withContext null
@@ -55,3 +55,4 @@ object GeoApi {
         }
     }
 }
+
