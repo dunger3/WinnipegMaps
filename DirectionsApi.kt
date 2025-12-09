@@ -29,7 +29,7 @@ object DirectionsApi {
         destination: LatLng
     ): List<LatLng> = withContext(Dispatchers.IO) {
         try {
-            val apiKey = "AIzaSyC6smpCrPXQz8XiAAJ6Ew-RY8Eu_8sDIqo"
+            val apiKey = "Your API Key"
             if (apiKey.isBlank()) {
                 Log.e(TAG, "MAPS_API_KEY is missing")
                 return@withContext emptyList()
@@ -149,3 +149,4 @@ object DirectionsApi {
         return poly
     }
 }
+
